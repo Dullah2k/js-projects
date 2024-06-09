@@ -1,0 +1,35 @@
+@import url("/random-color-generator/style.css");
+
+main {
+  margin-top: 10%;
+}
+
+.navbar {
+  text-align: center;
+}
+
+#pwdText {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: .2rem;
+} 
+
+.copy-pwd {
+  cursor: pointer;
+  /* border: 1px solid red; */
+  padding: .6rem 0;
+}
+
+form {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+form .form-control{
+  width: 50%;
+  margin: auto;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  text-indent: .6rem;
+  font-family: inherit;
+}

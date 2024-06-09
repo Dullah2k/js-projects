@@ -47,7 +47,7 @@ main {
 
 main .color-container {
   background-color: rgb(41, 40, 40);
-  width: fit-content;
+  width: 50%;
   padding: 1rem 3rem;
   margin: 1rem;
   border-radius: 1.25rem;
@@ -55,7 +55,7 @@ main .color-container {
   text-align: center;
 }
 
-main #changeColor {
+main .btn {
   background-color: transparent;
   padding: 1rem;
   cursor: pointer;
