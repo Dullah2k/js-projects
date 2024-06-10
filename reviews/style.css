@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --primary-font: 'Quicksand', sans-serif;
+  --brand-color: #03624c;
+  /* --brand-color2: ; */
+  --brand-white: #f1f7f6;
+  --radius: .6rem;
+  --light-grey: #ecefed;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--brand-color);
+  color: var(--brand-white);
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  margin: 4rem 0;
+}
+
+header .underline {
+  width: 5rem;
+  margin: auto;
+  height: 5px;
+  background-color: var(--brand-white);
+  border-radius: var(--radius);
+}
+
+.review-card {
+  border: 2px solid var(--brand-white);
+  text-align: center;
+  padding: 1rem;
+  width: 40%;
+  margin: auto;
+  border-radius: var(--radius);
+}
+
+.review-card .img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid var(--brand-white);
+}
+
+.review-card .img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.review-card .name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.review-card .name .lname {
+  font-weight: 400;
+}
+
+.review-card .job {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+.review-card .name-role, .desc {
+  padding: .3rem;
+}
+
+.review-card button {
+  padding: .3rem;
+  font-family: inherit;
+  /* margin: .6rem; */
+  font-weight: 500;
+  color: var(--brand-white);
+  background-color: transparent;
+  border: 2px solid var(--brand-white);
+  border-radius:  var(--radius);
+}
+
+.review-card .btn {
+  padding: .5rem;
+  font-size: 1.5rem;
+  border: none;
+}
