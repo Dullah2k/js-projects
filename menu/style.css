@@ -1,0 +1,108 @@
+@import url("/reviews/style.css");
+
+:root {
+  --brand-color: #5a0508;
+  --brand-color2: #90101f;
+  --brand-white: #f2e3d0;
+  --brand-cream: #daa67e;
+  --brand-cream2: #8f6a4f;
+  --chocolate: #462b18;
+  --radius: .6rem;
+  --light-grey: #ecefed;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  margin: 4rem auto 2rem;
+}
+
+header .underline {
+  background-color: var(--chocolate);
+}
+
+body {
+  background-color: var(--brand-white);
+  color: var(--chocolate);
+}
+
+.navbar {
+  text-align: center;
+}
+
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+nav .nav-link {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--chocolate);
+  border: 2px solid var(--chocolate);
+  padding: .3rem;
+  border-radius: .5rem;
+  transition: all .2s ease-in-out;
+}
+
+.our-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 70%;
+  margin: auto;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  margin-top: 2rem;
+}
+
+.menu-item .image {
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 4px solid var(--brand-color);
+}
+
+.menu-item .image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: .6rem;
+}
+
+.menu-item .details .tprice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem;
+  border-bottom: .2px solid var(--brand-color);
+}
+
+.menu-item .details .title {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.menu-item .details .price {
+  font-weight: 300;
+  font-size: 1.25rem;
+  background-color: var(--brand-color);
+  color: var(--brand-white);
+  padding: .2rem .1rem;
+  border-radius: .3rem;
+}
+
+.menu-item .details .text {
+  padding: 1rem .6rem;
+  text-align: left;
+}
